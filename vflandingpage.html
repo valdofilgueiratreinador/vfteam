@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valdo Filgueira | Consultoria Online</title>
+    <style>
+        :root {
+            --chumbo: #1a1a1a;
+            --chumbo-claro: #2d2d2d;
+            --branco: #ffffff;
+            --verde: #39FF14; /* Verde Neon para Call to Action */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--chumbo);
+            color: var(--branco);
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--chumbo-claro);
+        }
+
+        .logo { font-weight: bold; font-size: 1.5rem; letter-spacing: 2px; }
+
+        .hero {
+            padding: 80px 5%;
+            text-align: center;
+            background: linear-gradient(rgba(26,26,26,0.8), rgba(26,26,26,0.8)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=1470') no-repeat center/cover;
+        }
+
+        .hero h1 { font-size: 3rem; margin-bottom: 20px; text-transform: uppercase; }
+        
+        .btn-whatsapp {
+            background-color: var(--verde);
+            color: black;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+        .btn-whatsapp:hover { transform: scale(1.05); box-shadow: 0 0 20px var(--verde); }
+
+        .section { padding: 60px 5%; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        
+        .card {
+            background: var(--chumbo-claro);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid var(--verde);
+        }
+
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: var(--chumbo-claro); }
+        th, td { padding: 15px; border: 1px solid #444; text-align: left; }
+        th { background: #333; color: var(--verde); }
+
+        footer {
+            padding: 40px 5%;
+            text-align: center;
+            border-top: 1px solid var(--chumbo-claro);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">VALDO FILGUEIRA</div>
+    <nav>CONSULTORIA ONLINE</nav>
+</header>
+
+<section class="hero">
+    <h1>Construímos resultados reais, juntos.</h1>
+    <p>Metodologia de ponta e acompanhamento personalizado para sua evolução.</p><br>
+    <a href="https://wa.me/SEUNUMERO" class="btn-whatsapp">QUERO COMEÇAR AGORA</a>
+</section>
+
+<section class="section">
+    <h2 style="color: var(--verde)">📌 MÉTODOS DE TREINAMENTO</h2>
+    <div class="grid">
+        <div class="card"><h3>Dropset</h3><p>Série até a falha, reduz carga e continua sem descanso. Foco: Hipertrofia.</p></div>
+        <div class="card"><h3>Rest-Pause</h3><p>Pausa curta (10-20s) após falha para extrair mais repetições.</p></div>
+        <div class="card"><h3>Biset</h3><p>Dois exercícios sem descanso. Otimização e intensidade.</p></div>
+    </div>
+</section>
+
+<section class="section" style="background: #151515;">
+    <h2 style="color: var(--verde)">📌 SIGLAS DE TREINO</h2>
+    <table>
+        <tr><th>Sigla</th><th>Tipo</th><th>Objetivo</th></tr>
+        <tr><td>AQ</td><td>Aquecimento</td><td>Preparar articulações e músculos.</td></tr>
+        <tr><td>AP</td><td>Aproximação</td><td>Subir carga gradualmente.</td></tr>
+        <tr><td>SV</td><td>Série Válida</td><td>Série principal de trabalho.</td></tr>
+        <tr><td>F/FF</td><td>Até a Falha</td><td>Máximo esforço técnico.</td></tr>
+    </table>
+</section>
+
+<footer>
+    <p>VALDO FILGUEIRA - PERSONAL TRAINER</p>
+    <p><i>"A consistência é o que transforma o esforço em resultado. Treine com propósito."</i></p>
+</footer>
+
+</body>
+</html>
